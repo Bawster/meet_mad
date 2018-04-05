@@ -808,6 +808,58 @@
 .header--standard .mCustomScrollbar {
   max-height: calc(100vh - 70px); }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*---------------------------------------------------------------*/
+  /*------------------- Cuerpo Nuestro ----------------------------*/
+  /*---------------------------------------------------------------*/
+
+.CajaBlanca{
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 50px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*================= Styles for sticky-Header =========*/
 .animated {
   -webkit-animation-duration: .5s;
