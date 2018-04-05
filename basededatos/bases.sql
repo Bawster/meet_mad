@@ -1,0 +1,1 @@
+CREATE TABLE Persona(Nombre VARCHAR(59), Apellido VARCHAR(59), PRIMARY KEY(Nombre));
