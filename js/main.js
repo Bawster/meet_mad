@@ -52,12 +52,11 @@ var CRUMINA = {};
             labelField: 'name',
             searchField: ['name'],
             options: [
-                {image: 'img/avatar30-sm.jpg', name: 'Marie Claire Stevens', message:'12 Friends in Common', icon:'olymp-happy-face-icon'},
-                {image: 'img/avatar54-sm.jpg', name: 'Marie Davidson', message:'4 Friends in Common', icon:'olymp-happy-face-icon'},
-                {image: 'img/avatar49-sm.jpg', name: 'Marina Polson', message:'Mutual Friend: Mathilda Brinker', icon:'olymp-happy-face-icon'},
-                {image: 'img/avatar36-sm.jpg', name: 'Ann Marie Gibson', message:'New York, NY', icon:'olymp-happy-face-icon'},
-                {image: 'img/avatar22-sm.jpg', name: 'Dave Marinara', message:'8 Friends in Common', icon:'olymp-happy-face-icon'},
-                {image: 'img/avatar41-sm.jpg', name: 'The Marina Bar', message:'Restaurant / Bar', icon:'olymp-star-icon'}
+                {image: 'img/avatar30-sm.jpg', name: 'Cristian Silva', message:'12 Friends in Common', icon:'olymp-happy-face-icon'},
+                {image: 'img/avatar54-sm.jpg', name: 'David Parra', message:'4 Friends in Common', icon:'olymp-happy-face-icon'},
+                {image: 'img/avatar49-sm.jpg', name: 'Humberto Valverde', message:'Mutual Friend: Mathilda Brinker', icon:'olymp-happy-face-icon'},
+                {image: 'img/avatar36-sm.jpg', name: 'Jesús María Calderón', message:'New York, NY', icon:'olymp-happy-face-icon'},
+                {image: 'img/avatar22-sm.jpg', name: 'Sergio Sanz', message:'8 Friends in Common', icon:'olymp-happy-face-icon'}
             ],
             render: {
                 option: function(item, escape) {
@@ -299,7 +298,7 @@ var CRUMINA = {};
 			});
 			initIterator++;
 		});
-		
+
 
         //swiper arrows
         $('.btn-prev').on('click', function () {
@@ -311,7 +310,7 @@ var CRUMINA = {};
             var sliderID = $(this).closest('.slider-slides').siblings('.swiper-container').attr('id');
             swipers['swiper-' + sliderID].slideNext();
         });
-		
+
         //swiper arrows
         $('.btn-prev-without').on('click', function () {
             var sliderID = $(this).closest('.swiper-container').attr('id');
@@ -322,8 +321,8 @@ var CRUMINA = {};
             var sliderID = $(this).closest('.swiper-container').attr('id');
             swipers['swiper-' + sliderID].slideNext();
         });
-		
-		
+
+
         // Click on thumbs
         $('.slider-slides .slides-item').on('click', function () {
             if ($(this).hasClass('slide-active')) return false;
@@ -337,7 +336,7 @@ var CRUMINA = {};
         });
 	};
 
-	
+
 	/* -----------------------
 	 * Progress bars Animation
 	 * --------------------- */
@@ -505,7 +504,7 @@ var CRUMINA = {};
 
 
 
-	
+
 		/* -----------------------------
 	 * On DOM ready functions
 	 * ---------------------------*/
