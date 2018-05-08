@@ -52,11 +52,11 @@ var CRUMINA = {};
             labelField: 'name',
             searchField: ['name'],
             options: [
-                {image: 'img/avatar30-sm.jpg', name: 'Cristian Silva', message:'12 Amigos en común', icon:'olymp-happy-face-icon'},
-                {image: 'img/avatar54-sm.jpg', name: 'David Parra', message:'4 Amigos en común', icon:'olymp-happy-face-icon'},
-                {image: 'img/avatar49-sm.jpg', name: 'Humberto Valverde', message:'Amigos comunes: Txmagon', icon:'olymp-happy-face-icon'},
-                {image: 'img/avatar36-sm.jpg', name: 'Jesús María Calderón', message:'Madrid, La Elipa', icon:'olymp-happy-face-icon'},
-                {image: 'img/avatar22-sm.jpg', name: 'Sergio Sanz', message:'8 Amigos en común', icon:'olymp-happy-face-icon'}
+                {image: 'images/cristian.jpeg', name: 'Cristian Silva', message:'12 Amigos en común', icon:'olymp-happy-face-icon'},
+                {image: 'images/parra.jpeg', name: 'David Parra', message:'4 Amigos en común', icon:'olymp-happy-face-icon'},
+                {image: 'images/humber.jpeg', name: 'Humberto Valverde', message:'Amigos comunes: Txmagon', icon:'olymp-happy-face-icon'},
+                {image: 'images/jesus.jpg', name: 'Jesús María Calderón', message:'La Elipa, Madrid', icon:'olymp-happy-face-icon'},
+                {image: 'images/sergio.jpg', name: 'Sergio Sanz', message:'8 Amigos en común', icon:'olymp-happy-face-icon'}
             ],
             render: {
                 option: function(item, escape) {
