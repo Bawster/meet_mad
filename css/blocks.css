@@ -1024,7 +1024,7 @@ fieldset[disabled] .checkbox, fieldset[disabled] .checkbox input[type=checkbox],
     transform: translateX(100%); }
 
 .logo {
-  background-color: #ff5e3a;
+  background-color: #ffa63b;
   display: flex;
   align-items: center;
   color: #fff;
